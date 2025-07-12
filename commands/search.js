@@ -22,7 +22,7 @@ const retrieveItem = async (interaction)=>{
         const itemDesc = item.description;
         const itemType = item.type;
         const itemEffect = item.effect;
-        const message = `${itemName} has been found:\n${itemImg}\nDescription:${itemDesc}\nType:${itemType}\n${itemEffect}`;
+        const message = `${itemName} has been found:\n${itemImg}\nDescription: ${itemDesc}\nType: ${itemType}\nEffect: ${itemEffect}`;
         await interaction.editReply(message);
     }catch(err){
         console.error("Error fetching data: ", err);
