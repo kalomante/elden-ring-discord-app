@@ -13,7 +13,6 @@ const retrieveWeapon = (interaction) => {
         const dataLength = weapon.data.length;
         const randomNum = Math.floor(Math.random()* dataLength);
         weapon = weapon.data[randomNum];
-        console.log(weapon);
         const weaponName = weapon.name;
         const weaponImage = weapon.image;
         const weaponDescription = weapon.description
