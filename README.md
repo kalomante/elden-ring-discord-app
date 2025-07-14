@@ -10,6 +10,7 @@ For the moment being, the app can only give info about a random character, boss,
   <li><b>/boss:</b></li> the bot gives info about a random boss.
   <li><b>/weapon:</b></li> the bot gives info about a random weapon.
   <li><b>/search:</b></li> the bot gives info about a random item.
+  <li><b>/sorcery:</b></li> the bot gives info about a random sorcery.
 </ul>
 
 # API
