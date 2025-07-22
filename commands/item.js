@@ -2,8 +2,8 @@ const { default: axios, Axios } = require("axios");
 
 module.exports = {
     data: {
-        name: "search",
-        description: "Recover information from The Lands Between"
+        name: "item",
+        description: "gives information about a random item"
     },
     run: async ({interaction}) => {
         await interaction.reply("Fetching item...");

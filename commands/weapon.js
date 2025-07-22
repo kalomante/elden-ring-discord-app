@@ -18,7 +18,7 @@ const retrieveWeapon = (interaction) => {
         const weaponDescription = weapon.description
         let weaponAttack = `**Attack:**\n`
         weapon.attack.forEach((weapon)=>{
-            weaponAttack+= `  __${weapon.name}:__ ${weapon.amount}`;
+            weaponAttack+= `  __${weapon.name}:__ ${weapon.amount}\n`;
         });
         let weaponDefence = `**Defence:**\n`
         weapon.defence.forEach((weapon)=>{
